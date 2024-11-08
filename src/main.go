@@ -29,7 +29,7 @@ func main() {
 	err = sess.Open()
 
 	//Set Status
-	sess.UpdateStreamingStatus(0, " Command .start / .gg/123demands", "https://www.twitch.tv/404")
+	sess.UpdateStreamingStatus(0, " Command .start / .gg/123demands", "https://discord.gg/123demands")
 
 	if err != nil {
 		log.Fatal(err)
